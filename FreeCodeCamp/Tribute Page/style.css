@@ -11,6 +11,7 @@ body {
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 20px;
 }
+
 #image {
     display: block;
     margin: 0 auto;
@@ -34,4 +35,9 @@ figcaption {
     color: rgba(250, 100, 100, 1);
     font-size: 20px;
     text-decoration: none;
+    height: auto;
+    align-items: center;
+}
+#img-div > img {
+    display: block
 }
